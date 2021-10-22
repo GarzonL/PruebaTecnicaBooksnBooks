@@ -36,7 +36,7 @@
                 <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto</p>
             </div>
             <div class="sub-container2-p">
-                <button class="button1-s1" onclick="prueba()">Ok let's go <img id="train" class="img-button" src="https://img.icons8.com/ios-filled/50/ffffff/circled-right-2.png"/></button>
+                <button class="button1-s1" onclick="transicionBoton1()">Ok let's go <img id="train" class="img-button" src="https://img.icons8.com/ios-filled/50/ffffff/circled-right-2.png"/></button>
                 <button class="button2-s1" onclick="transicionBoton2()">More info <img id="train2" src="https://img.icons8.com/ios-filled/50/000000/help.png"/></button>
             </div>
         </div>
@@ -86,43 +86,49 @@
         </div>
     </div>
     <div class="seccion3">
-
+        <div class="container-principal-s3">
+            <div class="sub-container1-p-s3">
+                <h3>Interesting stuff</h3>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card text-white">
+                            <img class="card-img" src="../prueba-frontend-master/images/pic04.jpg" alt="Card image">
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card text-white">
+                            <img class="card-img" src="../prueba-frontend-master/images/pic05.jpg" alt="Card image">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card text-white">
+                            <img class="card-img" src="../prueba-frontend-master/images/pic06.jpg" alt="Card image">
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card text-white">
+                            <img class="card-img" src="../prueba-frontend-master/images/pic07.jpg" alt="Card image">
+                        </div>
+                    </div>
+                </div>
+                <button><img src="https://img.icons8.com/ios/50/000000/document.png"/> More</button>
+            </div>
+            <div class="sub-container2-p-s3">
+                <h1>So what's this all about?</h1>
+                <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta)
+                    desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente
+                    igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye
+                    versiones de Lorem Ipsum.</p>
+                <p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus. Praesent semper bibendum ipsum, et tristique augue fringilla eu. Vivamus et metus sed ante lobortis porttitor vel eu massa.</p>
+                <button><img src="https://img.icons8.com/ios/50/000000/circled-right-2.png"/> Continue Reading</button>
+            </div>
+        </div>
     </div>
+
 </body>
 
-<script>
-    var boton = document.getElementsByClassName('button1-s1')[0];
-    // var img1 = document.getElementById('img1');
-
-    function prueba() {
-
-        let start = Date.now();
-
-        let timer = setInterval(function() {
-            let timePassed = Date.now() - start;
-
-            train.style.left = timePassed / 5 + 'px';
-
-            if (timePassed > 600) clearInterval(timer);
-
-        }, 20);
-
-    }
-
-    function transicionBoton2() {
-
-        let start = Date.now();
-
-        let timer = setInterval(function() {
-            let timePassed = Date.now() - start;
-
-            train2.style.left = timePassed / 5 + 'px';
-
-            if (timePassed > 670) clearInterval(timer);
-
-        }, 20);
-
-    }
-</script>
+<script src="./transiciones.js"></script>
 
 </html>

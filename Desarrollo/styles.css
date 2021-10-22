@@ -154,3 +154,18 @@ body {
 .card-p1-s2 {
     font-weight: 800;
 }
+
+.seccion3 {
+    background-color: #FFF;
+}
+
+.container-principal-s3 {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+}
+
+.sub-container1-p-s3 {
+    width: 100%;
+    margin: 50px 20px;
+}
