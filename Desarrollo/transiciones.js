@@ -1,5 +1,5 @@
-var boton = document.getElementsByClassName('button1-s1')[0];
-// var img1 = document.getElementById('img1');
+// Declarando las funciones que ejecutan la transición y animación de los botones,
+// desplazandose la imagen del boton hacia la izquierda hasta llegar al final 
 
 function transicionBoton1() {
 
