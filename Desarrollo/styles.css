@@ -1,2 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body,
+header {
+    background-color: #EBEBEB !important;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 300px;
+    padding: 20px 0px;
+}
+
+.sub-container1-header {
+    font-size: 32px;
+    font-family: 'Lobster', cursive;
+    color: #F2463D;
+}
+
+.container-menu {
+    display: flex;
+}
+
+.a-menu-links {
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin: 10px 15px 0px;
+}
+
+.a-menu-links:hover {
+    background-color: #444444;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.container-principal-s1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.seccion1 {
+    background-color: #FFF;
+    max-width: 1320px;
+    margin: auto;
+    padding: 20px;
+}
+
+.sub-container1-p {}
