@@ -6,8 +6,12 @@ header {
     background-color: #EBEBEB !important;
 }
 
+body {
+    font-family: 'Open Sans' !important;
+}
+
 .seccion-header {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -19,7 +23,7 @@ header {
 
 .sub-container1-header {
     font-size: 32px;
-    font-family: 'Lobster', cursive;
+    font-family: 'Oleo Script', cursive;
     color: #F2463D;
 }
 
@@ -51,13 +55,15 @@ header {
 
 .seccion1 {
     background-color: #FFF;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: auto;
-    padding: 40px;
+    padding: 40px 60px;
+    border-radius: 5px;
+    border-bottom: 1px solid #E7E7E7;
 }
 
 .sub-container1-p h1 {
-    font-weight: 700;
+    font-weight: 800;
     color: #454545;
 }
 
@@ -122,4 +128,29 @@ header {
 
 .button2-s1:hover {
     transform: scale(1.1);
+}
+
+.seccion2 {
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.sub-container1-s2 .card {
+    max-width: 400px;
+    width: 100%;
+}
+
+.sub-container1-s2 .card-title {
+    font-weight: 800;
+    margin-top: -35px;
+    margin-left: 15px;
+}
+
+.sub-container1-s2 .card-text {
+    color: #454545;
+    font-family: 'Open Sans';
+}
+
+.card-p1-s2 {
+    font-weight: 800;
 }
