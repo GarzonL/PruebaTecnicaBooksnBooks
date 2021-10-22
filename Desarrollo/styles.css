@@ -6,10 +6,14 @@ header {
     background-color: #EBEBEB !important;
 }
 
+.seccion-header {
+    max-width: 1000px;
+    margin: auto;
+}
+
 .container-header {
     display: flex;
     justify-content: space-between;
-    margin: 0px 300px;
     padding: 20px 0px;
 }
 
@@ -47,9 +51,75 @@ header {
 
 .seccion1 {
     background-color: #FFF;
-    max-width: 1320px;
+    max-width: 1000px;
     margin: auto;
-    padding: 20px;
+    padding: 40px;
 }
 
-.sub-container1-p {}
+.sub-container1-p h1 {
+    font-weight: 700;
+    color: #454545;
+}
+
+.sub-container1-p p {
+    max-width: 430px;
+    font-size: 30px;
+    font-weight: 300;
+    color: #454545;
+}
+
+.button1-s1 {
+    width: 400px;
+    display: block;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    font-size: 32px;
+    text-align: left;
+    font-weight: 800;
+    background-color: #1591C3;
+    border: none;
+    border-radius: 10px;
+    height: 70px;
+    padding-left: 20px;
+    color: #FFF;
+    transition: transform 250ms;
+}
+
+.button1-s1:hover {
+    transform: scale(1.1);
+}
+
+#train {
+    position: relative;
+    cursor: pointer;
+}
+
+#train2 {
+    position: relative;
+    cursor: pointer;
+}
+
+.img-button {
+    transition: transform 250ms;
+}
+
+.button2-s1 {
+    width: 400px;
+    display: block;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    font-size: 32px;
+    text-align: left;
+    font-weight: 800;
+    background-color: #F2F2F2;
+    border: none;
+    border-radius: 10px;
+    height: 70px;
+    padding-left: 20px;
+    color: #56514B;
+    transition: transform 250ms;
+}
+
+.button2-s1:hover {
+    transform: scale(1.1);
+}
